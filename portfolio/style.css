@@ -127,7 +127,7 @@ nav.sticky .menu-btn {
 }
 
 /* home section styling */
-.home {
+.home {                                      
   height: 100vh;
   width: 100%;
   background: url("./Images/backgroundimg.jpg") no-repeat;
@@ -145,6 +145,9 @@ nav.sticky .menu-btn {
   flex-direction: column;
   justify-content: center;
 }
+
+
+
 
 .home .text-one {
   font-size: 25px;
@@ -167,7 +170,7 @@ nav.sticky .menu-btn {
 .home .text-four {
   font-size: 23px;
   margin: 5px 0;
-  color: #0E2431;
+  color:#830f11 ;
 }
 
 .home .button {
@@ -194,8 +197,7 @@ nav.sticky .menu-btn {
 }
 
 /* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
+
 section {
   padding-top: 40px;
 }
@@ -244,11 +246,13 @@ section .title span::after {
   transform: translateX(-50%);
 }
 
-.about .about-details .left {
+.about .about-details .sideleft {
   width: 45%;
 }
 
-.about .left img {
+
+
+.about .sideleft img{
   height: 400px;
   width: 400px;
   object-fit: cover;
@@ -257,7 +261,9 @@ section .title span::after {
 
 .about-details .right {
   width: 55%;
+ 
 }
+
 
 section .topic {
   color: #0E2431;
@@ -478,15 +484,13 @@ footer .text span a:hover {
     flex-direction: column;
   }
 
-  .about .about-details .left {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
 
-  .about-details .right {
+
+  .about-details .center {
     width: 90%;
     margin: 40px 0;
+    padding: 0px;
+    text-align: center; 
   }
 
   .services .boxes .box {
@@ -539,6 +543,8 @@ footer .text span a:hover {
   nav .navbar .media-icons {
     display: none;
   }
+
+ 
 
   nav .menu-btn,
   .navbar .menu .cancel-btn {
